@@ -4,43 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Agency </title>
+    <title>dporod</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="section ">
-        <div class="container row">
-            <div class="header logo">
-                <img src="./assets/logo.svg" alt="">
+    <header class="myHeader">
+        <div class="container header row">
+            <div class="logo">
+                <img src="./assets/logo.svg" alt="logo">
             </div>
-            <div class="nav-menu">
-                    <li class="nav-list row">
-                        <a href="">HOME</a>
-                        <a href="">ABOUT</a>
-                        <a href="">SERVICES</a>
-                        <a href="">BLOG</a>
-                        <a href="">Contact Us</a>
-                    </li>
+            <div class="menu ">
+                <ul class="menu-list row">
+                    <li><a class="menu-item" href="#">HOME</a></li> 
+                    <li><a class="menu-item" href="#">ABOUT </a> </li> 
+                    <li><a class="menu-item" href="#">SERVICES </a> </li> 
+                    <li><a class="menu-item" href="#">BLOG </a> </li> 
+                    <li><a class="menu-item contact-us" href="#">Contact Us </a> </li> 
+                </ul>
             </div>
         </div>
     </header>
-    <div class="section hero">
-        <div class="hero__description container row">
-            <div class="column">
-                <h1>
-                    Digital product
-                        design agency
-                </h1>
-                <p>Create live segments and target the right people for messages based on their behaviors.</p>
-                <div>Get Started</div>
-            </div>
-            <div class="column">
-                <img src="./assets/hero-banner.png" alt="">
+    <main class="container hero row">
+        <div class="column hero-content">
+            <h1>Digital <span>product</span> design agency</h1>
+            <p>Create live segments and target the right people for messages based on their behavior</p>
+            <div class="cta-d" >
+                <a href="#" class="cta">Get Started</a>
             </div>
         </div>
-    </div>
+        <div class="column">
+            <img src="./assets/hero-banner.png" alt="">
+        </div>
+    </main>
+    <section class="services">
+        <div class="container services-container">
+            <div class="row1 row">
+                <div class="services-r1">
+                    <h2>Our included <span>service</span>.</h2>
+                </div>
+                <div>
+                    <p>Aliquam tristique libero at dui sodales, et placerat orci lobortis. Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem.</p>
+                </div>
+            </div>
+            <div class="row">              
+                <div class="service-item row">
+                        <img src="./assets/service-1.svg" alt="">
+                        <h3>Mobile Apps</h3>
+                        <p>We design professional looking get simple Logo</p>
+                    </div>
+                    <div class="service-item row">
+                        <img src="./assets/service-2.svg" alt="">
+                        <h3>Branding Strategy</h3>
+                        <p>We design professional looking yet simple Logo.</p>
+                    </div>
+                    <div class="service-item row">
+                        <img src="./assets/service-3.svg" alt="">
+                        <h3>Graphics Design</h3>
+                        <p>We design professional looking yet simple Logo.</p>
+                    </div>
+                    <div class="service-item row">
+                        <img src="./assets/service-4.svg" alt="">
+                        <h3>Online Marketing</h3>
+                        <p>We design professional looking yet simple Logo.</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-us">
+        <div class="container row">
+            <div class="about-img">
+                <img src="./assets/about-banner.png" alt="">
+            </div>
+            <div class="about-content row">
+                <h2>We've been helping <span>customers</span> globally.</h2>
+                <p>Aliquam tristique libero at dui sodales, et placerat orci lobortis. Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem.</p>
+                <a href="#">More About Us</a>
+            </div>
+        </div>
+    </section>
 </body>
+<script>
+</script>
 </html>
