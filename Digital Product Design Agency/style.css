@@ -128,12 +128,18 @@ p{
 .services{
     background-color: var(--cultured);
 }
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
 .service-item{
     flex-direction: column;
     background-color: white;
     align-items: flex-start;    
     padding: 50px 30px;
     box-shadow: var(--shadow-2);
+    align-self: normal;
+    flex-basis: 100%;
 }
 .service-item + .service-item{
     margin-left: 30px;
@@ -211,8 +217,15 @@ p{
 .news-aritical{
     margin-left: 30px;
     justify-content: space-between;
+    align-self: normal;
+    flex-basis: 100%;
 }
 .news-img > img{
     /* max-width: 309px; */
 
+}
+.news-cards{
+}
+@media  {
+    
 }
