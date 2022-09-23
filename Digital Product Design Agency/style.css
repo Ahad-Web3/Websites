@@ -245,8 +245,12 @@ p{
 }
 .footer-list > li{
     font-size: var(--fs-18);
-    line-height: 1.7;
+    line-height: 2.2;
 }
 .footer-list > :nth-child(1){
     font-weight: var(--fw-500);
+    font-size: var(--fs-22);
+}
+.company-info > li{
+    line-height: 3;
 }
