@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
+}
+section{
+    width: 1440px;
+    margin: auto;
+    border: 1px solid black;
+}
+.hero__main{
+    background-image: url(./Hero\ Back\ Ground.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    position: relative;
+}
+.container{
+    border: 1px solid red;
+    width: 90%;
+    margin: auto;
+}
+.hero__container{
+    width: 40%;
+    align-items: flex-end ;
+}
+.hero__content{
+    position: relative;
+    align-content: center;
+    flex-direction: column;
+    gap: 2em;
+}
