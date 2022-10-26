@@ -1,0 +1,9 @@
+@tailwind base;
+img,
+video {
+  max-width: 100%;
+  /* height: auto; */
+  object-fit: cover;
+}
+@tailwind components;
+@tailwind utilities;
